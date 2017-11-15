@@ -4,4 +4,6 @@ applications:
   path: build/libs/pal-tracker.jar
   host: ys-ps-pal-tracker
   services:
-    - tracker-database
+  - tracker-database
+  env:
+    SECURITY_FORCE_HTTPS: true
